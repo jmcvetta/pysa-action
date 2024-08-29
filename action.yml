@@ -170,7 +170,7 @@ runs:
         if-no-files-found: error
 
     - name: Postprocess Pysa results with SAPP
-      uses: facebook/sapp-action@main
+      uses: jmcvetta/sapp-action@main
       with:
         version: ${{inputs.sapp-version}}
         artifact-handle: pysa-results
